@@ -1,0 +1,26 @@
+#game-map {
+    width: 800px;
+    height: 600px;
+    background-color: #eee;
+    border: 1px solid darkgray;
+    position: relative;
+    margin: 40px auto;
+}
+
+.snake-body,
+.snake-head,
+.food {
+    width: 17px;
+    height: 17px;
+    background-color: blue;
+    border: 1px dotted black;
+    position: absolute;
+}
+
+.snake-head {
+    background-color: red;
+}
+
+.food {
+    background-color: green;
+}
